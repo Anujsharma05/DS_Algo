@@ -1,23 +1,11 @@
 #include <stdio.h>
 
-int binarySearch(int arr[], int element, int beg, int end)
+int main()
 {
-    int mid;
+    int arr[1][1];
 
-    mid = (beg + end) / 2;
+    scanf("%d", &arr);
+    printf("%d", arr);
 
-    return 0;
-}
-
-int main(int argc, char const *argv[])
-{
-    int beg = 0, end = 8;
-
-    int arr[10] = {3, 5, 9, 15, 27};
-    int element = 65;
-
-    int count = sizeof(arr) / sizeof(arr[0]);
-    // binarySearch(arr, element, beg, end);
-    printf("%d", count);
     return 0;
 }
